@@ -45,7 +45,8 @@ completed order for customer 1
 /*
     -   Solve this problem use Asynchronous function setTimeout()
 
-    setTimeout()  - Web API 
+      setTimeout()  - Web API 
+
     - Eventloop er kaj hocche just simply callback-Queue and call-stack ke compare kora, jokhonei call-stack ke empty dekhbe 
       and callback queue te kisu dekhbe tokhonei tar kaj start korbe, and callback queue te thaka kaj ke call-stack e tule dibe.
 
@@ -64,4 +65,16 @@ const processOrder1 = (customer) => {
 
 console.log(`take order for customer 1`);
 processOrder1();
-console.log(`competed order for customer 1`);
+console.log(`completed order for customer 1`);
+
+
+/*
+ ------------ output -------------
+
+ take order for customer 1
+ Porcessing order for customer 1
+ order processed for customer 1
+ complete order for customer 1
+ cooking completed
+
+*/
